@@ -1,4 +1,1 @@
-add_llvm_pass_plugin(SkeletonPass
-    # List your source files here.
-    Skeleton.cpp
-)
+add_llvm_library(SkeletonPass MODULE Skeleton.cpp)
